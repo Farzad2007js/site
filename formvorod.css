@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazir-Black.eot);
+  src: url(./font/Vazir-Black.eot) format('embedded-opentype'),
+       url(./font/Vazir-Black.woff2) format('woff2'),
+       url(./font/Vazir-Black.woff) format('woff'),
+       url(./font/Vazir-Black.ttf) format('truetype');
+  font-weight: normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazir-Bold.eot);
+  src: url(./font/Vazir-Bold.eot) format('embedded-opentype'),
+       url(./font/Vazir-Bold.woff2) format('woff2'),
+       url(./font/Vazir-Bold.woff) format('woff'),
+       url(./font/Vazir-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-display:swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazir-Light.eot);
+  src: url(./font/Vazir-Light.eot) format('embedded-opentype'),
+       url(./font/Vazir-Light.woff2) format('woff2'),
+       url(./font/Vazir-Light.woff2) format('woff'),
+       url(./font/Vazir-Light.ttf) format('truetype');
+  font-weight: 100;
+  font-display:swap;
+}
+
+@font-face {
+  
+  font-family: "vazir";
+  src: url(./font/Vazir-Medium.eot);
+  src: url(./font/Vazir-Medium.eot) format('embedded-opentype'),
+       url(./font/Vazir-Medium.eot) format('woff2'),
+       url(./font/Vazir-Medium.woff) format('woff'),
+       url(./font/Vazir-Medium.ttf) format('truetype');
+  font-weight: 300;
+  font-display:swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazir-Thin.eot);
+  src: url(./font/Vazir-Thin.eot) format('embedded-opentype'),
+       url(./font/Vazir-Thin.woff2) format('woff2'),
+       url(./font/Vazir-Thin.woff) format('woff'),
+       url(./font/Vazir-Thin.ttf) format('truetype');
+  font-weight: 500;
+  font-display:swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazir.eot);
+  src: url(./font/Vazir.eot) format('embedded-opentype'),
+       url(./font/Vazir.woff2) format('woff2'),
+       url(./font/Vazir.woff) format('woff'),
+       url(./font/Vazir.ttf) format('truetype');
+  font-weight: 900;
+  font-display:swap;
+}
+ 
+ 
+ html {
+    font-size: 100%;
+    font-family: "Vazir";
+  }
+  body{
+      background: url(./image/6hBIle.jpg) no-repeat;
+      background-size: cover;
+      /* display: grid; */
+      /* justify-content: center; */
+  }
+  
+  .contianer {
+    /* width: 1200px; */
+    /* margin: 0 auto; */
+    /* margin: 2rem 18rem; */
+    display: grid;
+    justify-content: center;
+}
+  
+  
+  .form {
+    margin-top: 4rem;
+    /* padding: initial; */
+    /* display: grid; */
+    /* width: 195%; */
+    /* display: grid; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* width: 35%; */
+    text-align: center;
+  }
+  
+   
+    
+    .form label {
+       font-weight: bold;
+       display: block;
+       margin-bottom: 1.3rem;
+       /* display: flex; */
+       /* justify-content: space-between; */
+       /* padding-left: 25rem; */
+       }
+  
+  .title{
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      margin-bottom: 0rem;
+      /* text-align: center; */
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+  } 
+  .in1,.in2{
+    width: 94%;
+    padding: .6rem .4rem;
+    /* transform: translateY(10px); */
+    /* transform: translate(-374px,33px); */
+    border-radius: 5px;
+    border: rgb(90, 121, 131) solid .12rem;
+    /* margin-top: .3rem; */
+    /* display: flex; */
+    /* display: flex; */
+    margin-bottom: 2rem;
+  }
+  .in1:focus,.in2:focus{
+    outline: none;
+    background-color: rgb(220, 247, 255);
+    border: rgb(255, 67, 67) solid .12rem;
+  }
+  .btn{
+    /* transform: translate(-21px, 244px); */
+    /* width: 21%; */
+    padding: 0.5rem 4rem;
+    background-color:#4caf50;
+    border-radius: 10px;
+    border:solid #4caf50 .2rem;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    /* display: block; */
+    /* display: flex; */
+    /* justify-content: center; */
+    font-family: 'vazir';
+    font-weight: 200;
+  }
+  .f1,.f2{
+    /* transform: translate(-259px, 62px); */
+    color: #ffffff;
+    /* width: 50%; */
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  .big{
+  margin-top: 4rem;
+  text-align: center;
+  }
+  .faramosh{
+    color: rgb(251 251 251);
+    font-family: "vazir";
+    text-decoration: none;
+  }
+  .bigfaramosh{
+    margin-top: 2rem;
+    background-color: rgb(255 101 101);
+    /* display: flex; */
+    /* width: 23%; */
+    margin: 2rem 2rem;
+    padding: .3rem;
+    border: solid .1rem #ff7d7d;
+    border-radius: 36px;
+    /* display: flex; */
+  }

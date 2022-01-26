@@ -1,0 +1,538 @@
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazir-Black.eot);
+  src: url(./font/Vazir-Black.eot) format('embedded-opentype'),
+       url(./font/Vazir-Black.woff2) format('woff2'),
+       url(./font/Vazir-Black.woff) format('woff'),
+       url(./font/Vazir-Black.ttf) format('truetype');
+  font-weight: normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazir-Bold.eot);
+  src: url(./font/Vazir-Bold.eot) format('embedded-opentype'),
+       url(./font/Vazir-Bold.woff2) format('woff2'),
+       url(./font/Vazir-Bold.woff) format('woff'),
+       url(./font/Vazir-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-display:swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazir-Light.eot);
+  src: url(./font/Vazir-Light.eot) format('embedded-opentype'),
+       url(./font/Vazir-Light.woff2) format('woff2'),
+       url(./font/Vazir-Light.woff2) format('woff'),
+       url(./font/Vazir-Light.ttf) format('truetype');
+  font-weight: 100;
+  font-display:swap;
+}
+
+@font-face {
+  
+  font-family: "vazir";
+  src: url(./font/Vazir-Medium.eot);
+  src: url(./font/Vazir-Medium.eot) format('embedded-opentype'),
+       url(./font/Vazir-Medium.eot) format('woff2'),
+       url(./font/Vazir-Medium.woff) format('woff'),
+       url(./font/Vazir-Medium.ttf) format('truetype');
+  font-weight: 300;
+  font-display:swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazir-Thin.eot);
+  src: url(./font/Vazir-Thin.eot) format('embedded-opentype'),
+       url(./font/Vazir-Thin.woff2) format('woff2'),
+       url(./font/Vazir-Thin.woff) format('woff'),
+       url(./font/Vazir-Thin.ttf) format('truetype');
+  font-weight: 500;
+  font-display:swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(./font/Vazir.eot);
+  src: url(./font/Vazir.eot) format('embedded-opentype'),
+       url(./font/Vazir.woff2) format('woff2'),
+       url(./font/Vazir.woff) format('woff'),
+       url(./font/Vazir.ttf) format('truetype');
+  font-weight: 900;
+  font-display:swap;
+}
+
+.header{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .IT{
+   font-size: 1.2rem;
+   text-align: center;
+   text-decoration:none ;
+   font-weight: bold;
+   
+  }
+  
+ body{
+   margin:0rem;
+   /* width: 100%; */
+ }  
+  
+  .contanier{
+  
+font:bold;
+  
+background:  linear-gradient(155deg, #0097ed, #df0a0ae6);
+  
+padding: 0rem;
+  
+display: grid;
+  
+grid-template-columns: .4fr 1fr 1fr 1fr 1fr 2fr 1fr;
+  
+color:rgb(248, 248, 248);
+  
+background: linear-gradient(155deg, #0097ed, #df0a0ae6);
+  
+padding: 2rem 0rem 2rem 0rem;
+  
+font-family: "vazir";
+  
+width: 100%;
+  }
+
+   .footer{
+    color:  rgba(255, 255, 255, 0.822);
+    margin-top: 3rem;
+    /* display: grid; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: grid;
+    justify-content: start;
+    grid-gap: .4rem;
+    background: linear-gradient(45deg, #ffa904f0, #ff4f4f);
+    /* grid-template-columns: 1fr 2fr 2fr 1fr; */
+    width: 100%;
+    grid-template-columns:  1fr 1fr 1fr;
+   }
+   .ertebat{
+     padding: .7rem 0rem .7rem .0rem;
+     margin-left: rem;
+     font-size: 1.5rem;
+     margin-bottom: 1.4rem;
+   }
+   .ertebatbig{
+     margin-bottom: 3rem;
+     display: grid;
+     grid-row-gap: 1rem;
+     /* margin-left: 2rem; */
+     font-size: 1.2rem;
+     margin: 1.3rem .4rem;
+     font-family: system-ui;
+   }
+   .jost-va-jo{
+     width: 100%;
+   }
+   .haghmahfoz{
+     color: rgba(241, 245, 248, 0.863);
+     background-color: #434343;
+     text-align: center;
+     width: 100%;
+     padding: 1.2rem;
+   }
+   .ta1,.ta2,.ta3,.ta4{
+      text-decoration: none; 
+     color: aliceblue; 
+    
+      padding: .7rem; 
+   }
+   .p2{
+     margin-top: 2rem;
+     padding-bottom: 1.3rem;
+     font-size: 1.2rem;
+     font-family: system-ui;
+   }
+   .button2{
+     margin-top: .4rem;
+     background-color: #53d95d;
+     border: solid #53d95d;
+     border-radius: 5px;
+   }
+   .input2{
+     padding: .2rem .3rem .2em 5rem;
+       border-radius: 13px;
+       border: solid white;
+   }
+   .haghmahfoz{
+     color: rgba(241, 245, 248, 0.863);
+     background-color: #434343;
+     text-align: center;
+     width: 100%;
+     /* padding: 1.2rem; */
+   }
+   .ta1,.ta2,.ta3,.ta4{
+     text-decoration: none;
+     color: aliceblue;
+     border: solid .02rem #f9fffa;
+     border-radius: 13px;
+     padding: .7rem;
+     font-family: 'vazir';
+   }
+   .p2{
+     margin-top: 2rem;
+     padding-bottom: 1.3rem;
+     font-size: 1.2rem;
+     font-family: system-ui;
+   }
+   .button2{
+     margin-top: .4rem;
+     background-color: #53d95d;
+     border: solid #53d95d;
+     border-radius: 5px;
+     color: rgba(255, 255, 255, 0.849);
+     font-family: 'vazir';
+   }
+   .input2{
+     padding: .2rem .3rem .2em 5rem;
+       border-radius: 13px;
+       border: solid white;
+   }
+   .s1{
+     background: transparent url(./image/arrowpng.parspng.com_.png) 0 0 no-repeat;
+     background-size: 13px;
+     content: "";
+     display: inline-block;
+     font-size: .75rem;
+     height: 12px;
+     margin-right: 6px;
+     transform-origin: center;
+     width: 12px;
+   }
+   
+   
+   .pdiv{
+     padding: 0.5rem;
+     
+     margin: 0rem auto;
+     background-color: rgb(68 68 68);
+     border: solid rgb(91 75 66) .1rem;
+     border: solid rgb(91 75 66) .1rem;
+     border-radius: 90px;
+   }
+   .darkhasthamkari{
+     
+     padding: 3.3rem;
+     text-align: center;
+     background-size: cover;
+   }
+   .btn4{
+     margin-top: .4rem;
+     background-color: #bd48d9;
+     border: solid #bd48d9;
+     border-radius: 5px;
+     color: rgba(255, 255, 255, 0.849);
+     padding:  0.5rem 4rem;
+     font-size: large;
+     /* font-family: system-ui; */
+     font-weight: 500;
+     font-family: "vazir";
+     margin-bottom: 2rem;
+    }
+    .abtn{
+        text-decoration: none;
+        color: beige;
+    }
+   .para{
+     
+color: aliceblue;
+     
+margin-bottom: 3rem;
+     
+font-size: x-large;
+     
+font-family: system-ui;
+     
+margin-top: 1rem;
+     
+font-family: "vazir";
+     
+padding-right: .3rem;
+     
+padding-left: .3rem;
+   }
+   .input:focus{
+     background-color:rgb(220, 247, 255);
+     border: rgb(140, 180, 255) solid .1rem;
+   }
+   .ashnasho{
+     background:url(./image/black-background-mak-creates-web-design-services-1500-2500.jpg);
+     padding: 1rem 0em;
+     text-align: center;
+     margin-top: 1rem;
+     font-family: "vazir";
+     font-weight: normal;
+     font-display: swap;
+     width: 100%;
+   }
+   .telephoneicon{
+     height: 1.5rem;
+     width: 1.5rem;
+     background:url(./image/telephone-symbol-icon-phone-download-png-ed4ef6f248998a66d7a7808a0790e12e.png) no-repeat ;
+     background-size: cover;
+   }
+   .emailicon{
+     height: 1.5rem;
+     width: 1.5rem;
+     background:url(./image/email-message-telephone-text-messaging-email-icon-8b2098783cd697805fcf76f661c347b4.png) no-repeat;
+     background-size: cover;
+   }
+   .addressicon{
+     height: 1.5rem;
+    width: 1.5rem;
+    background:url(./image/computer-icons-home-download-house-home-92ccae15b1862151270de58f5e087b59.png) no-repeat ;
+    background-size: cover;
+   }
+   
+   
+   .telephone,.email,.address{
+     display: flex;
+   }
+   .addr,.em,.tamas{
+     padding-right: .4rem;
+   }
+.contanier3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    background-image: url(./image/compute-ea4c57a4.png);
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+    padding-bottom: 16rem;
+    font-family: "vazir";
+    font-weight:normal;
+    font-display:swap;
+    width: 100%;
+    align-items: center;
+}
+
+.acksasl{
+ /* background-color: blue; */
+ width: 20rem;
+ height: 25rem;
+ /* margin-right: 18rem; */
+ /* display: flex; */
+ /* justify-content: space-around; */
+ /* display: flex; */
+ /* flex-direction: row; */
+ margin: auto;
+}
+.m{background: url(./image/WhatsApp\ Image\ 2022-01-22\ at\ 5.26.45\ PM.jpeg) no-repeat;background-size: cover;border: rgb(109, 107, 107) solid .1rem;border-radius: 10px;/* display: flex; *//* justify-content: center; *//* flex-direction: row; */margin: auto;margin-top: 2.2rem;}
+
+.f{background: url(./image/WhatsApp\ Image\ 2022-01-22\ at\ 5.08.26\ PM.jpeg) no-repeat;background-size: cover;border: rgb(109, 107, 107) solid .1rem;border-radius: 4px;}
+.bio{
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: 2rem;
+    /* display: flex; */
+    /* align-content: stretch; */
+    text-align: start;
+    display: grid;
+    grid-gap: 1.3rem;
+    font-size: x-large;
+    font-weight: 500;
+    justify-content: center;
+    color: white;
+    font-family: system-ui;
+}
+.mohammadreza,.farzad{
+    margin-top: 2rem;
+}
+.acks{
+   
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    
+  }
+  .footer{
+   color:  rgba(255, 255, 255, 0.822);
+   margin-top: 3rem;
+   /* display: grid; */
+   /* display: flex; */
+   /* flex-direction: column; */
+   display: grid;
+   justify-content: end;
+   grid-gap: .4rem;
+   background: linear-gradient(45deg, #ffa904f0, #ff4f4f);
+   grid-template-columns: 1fr 1fr 1fr;
+   width: 100%;
+  }
+  .ertebat{
+    padding: .7rem 0rem .7rem .0rem;
+    margin-left: rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.4rem;
+  }
+  .ertebatbig{
+    margin-bottom: 3rem;
+    display: grid;
+    grid-row-gap: 1rem;
+    /* margin-left: 2rem; */
+    font-size: 1.2rem;
+    margin: 1.3rem .4rem;
+    font-family: system-ui;
+  }
+  .jost-va-jo{
+    width: 100%;
+  }
+  .haghmahfoz{
+    color: rgba(241, 245, 248, 0.863);
+    background-color: #434343;
+    text-align: center;
+    width: 100%;
+    padding: 1.2rem;
+  }
+  .ta1,.ta2,.ta3,.ta4{
+     text-decoration: none; 
+    color: aliceblue; 
+   
+     padding: .7rem; 
+  }
+  .p2{
+    margin-top: 2rem;
+    padding-bottom: 1.3rem;
+    font-size: 1.2rem;
+    font-family: system-ui;
+  }
+  .button2{
+    margin-top: .4rem;
+    background-color: #53d95d;
+    border: solid #53d95d;
+    border-radius: 5px;
+  }
+  .input2{
+    padding: .2rem .3rem .2em 5rem;
+      border-radius: 13px;
+      border: solid white;
+  }
+  .haghmahfoz{
+    color: rgba(241, 245, 248, 0.863);
+    background-color: #434343;
+    text-align: center;
+    width: 100%;
+    /* padding: 1.2rem; */
+  }
+  .p2{
+    margin-top: 2rem;
+    padding-bottom: 1.3rem;
+    font-size: 1.2rem;
+    font-family: system-ui;
+  }
+  .button2{
+    margin-top: .4rem;
+    background-color: #53d95d;
+    border: solid #53d95d;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.849);
+  }
+  .pdiv{
+    padding: 0.5rem;
+    
+    margin: 0rem auto;
+    background-color: rgb(68 68 68);
+    border: solid rgb(91 75 66) .1rem;
+    border: solid rgb(91 75 66) .1rem;
+    border-radius: 90px;
+  }
+  .darkhasthamkari{
+    
+    padding: 3.3rem;
+    text-align: center;
+    background-size: cover;
+  }
+  .chekide{
+    color: aliceblue;
+    padding-right: 1.4rem;
+    font-size: xx-large;
+    font-family: system-ui;
+    margin-top: 7rem;
+  }
+  @media screen and (max-width:940px) {
+    .IT{display: none;}
+    .contanier3{grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;}
+    .footer{
+      grid-template-columns:1fr 1fr;
+      grid-template-rows:1fr  1fr ;
+    }
+    .contanier{
+      grid-template-columns: 1fr 2fr;
+      /* display: flex; */
+    }
+    
+  }
+  @media screen and (max-width:560px) {
+    .footer{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+    .form2{
+      text-align: center;
+}    
+  .chekide{
+   font-size: 1.3rem;
+   font-weight: 500;
+  }
+  .acksasl{
+    width: 18rem;
+    height: 23rem;
+  }
+  .header{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+  
+}
+nav{
+  /* position: relative; */
+}
+
+.logo{
+  background: url(./image/لوگو.png) no-repeat;
+  
+  background-size: cover;
+  
+  position: absolute;
+  z-index: index; ;
+}
+@media screen and (max-width:1300px) {
+   
+  .IT{
+    display: none;
+  }
+  .contanier{
+    grid-template-columns: .1fr 2fr .7fr;
+    width: 100%;
+  }
+  .footer{
+    grid-template-columns:.2fr 1fr;
+    grid-template-rows:1fr  1fr ;
+  }
+  .menu{
+    background:url(./image/computer-icons-menu-bar-hamburger-button-menu-a758fa2a617f62d6d782a161adbfcd5a.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+    height: -3rem;
+  }
+ 
+  
+}
